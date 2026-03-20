@@ -2,8 +2,8 @@
 
 import hashlib
 import json
-from Crypto.Cipher import AES
-from Crypto.Util.Padding import unpad
+from Cryptodome.Cipher import AES
+from Cryptodome.Util.Padding import unpad
 
 # 🔑 Ton .keydata (extrait de ton fichier .keydata.txt)
 uuid = "f1a6be74597010cb4bc2413c5dfee1bb"
